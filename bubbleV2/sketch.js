@@ -24,7 +24,7 @@ function draw() {
 }
 
 function mouseDragged() {
-    if (bubbles.length <= 40) {
+    if (bubbles.length <= 100) {
         bubbles.push(new Bubble(mouseX, mouseY));
     } else if (bubbles.length > 40) {
         bubbles.splice(0, 1);
