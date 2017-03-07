@@ -2,8 +2,8 @@ function Bubble(x, y) {
     this.x = x;
     this.y = y;
     //this.diameter = random(10, 120);
-    this.diameter1 = random(10, 120);
-    this.diameter2 = random(10, 120);
+    this.diameter1 = random(10, 60);
+    this.diameter2 = random(60, 120);
     this.trans = random(10, 200);
     this.r = random(0, 255);
     this.g = random(0, 255);
